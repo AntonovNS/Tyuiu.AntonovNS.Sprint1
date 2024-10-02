@@ -7,7 +7,7 @@ namespace Tyuiu.AntonovNS.Sprint1.Task4.V28.Lib
     {
         public double Calculate(double x, double y)
         {
-            return (Math.Round((Math.Cos((60 * Math.PI) / 2)) / (Math.Exp(2 * x + y)), 4));
+            return (Math.Round((Math.Cos((60 * Math.PI) / 2)) / (Math.Exp(2 * x + y)), 3));
         }
     }
 }
